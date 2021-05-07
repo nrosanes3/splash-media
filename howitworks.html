@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the paragraph that describes this page to be viewed in some search engines">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odds ++ How it Works</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="how-it-works">
+	<header>
+    <h1 class="sr-only">Odds ++</h1>
+    <a href="index.html"><img src="img/logo.png" alt="Odds ++ Logo"></a>
+    <button class="toggle-btn">
+      <svg viewBox="-15 0 100 40" width="40" height="40">
+        <rect width="70" height="10" rx="8"></rect>
+        <rect y="20" width="70" height="10" rx="8"></rect>
+        <rect y="40" width="70" height="10" rx="8"></rect>
+      </svg>
+    </button>
+		<nav>
+			<ul class="menu">
+				<li><a href="#">Services</a></li>
+        <li><a href="howitworks.html">How it Works</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+		</nav>	
+	</header>
+	<main>
+    <section class="steps-section">
+      <h2>How it works.</h2>
+      <div>
+        <div>
+          <h3>Step 1</h3>
+          <p>Tell us a little about your project and requirements.</p>
+        </div>
+        <div>
+          <h3>Step 2</h3>
+          <p>Let us craft out a plan for your specific needs.</p>
+        </div>
+        <div>
+          <h3>Step 3</h3>
+          <p>Let us assemble a team that best supports your needs.</p>
+        </div>
+        <div>
+          <h3>Step 4</h3>
+          <p>Build innovative solutions to advance your business.</p>
+        </div>
+      </div>
+    </section>
+    <section class="project-form-section">
+      <div class="parallax-image"><h2>Project form.</h2></div>
+      <form action="#" method="POST">
+        <p>Fill out the fields below and describe your needs.</p>
+        <fieldset>
+          <div>
+            <label for="name">Name *required</label>
+            <input type="text" id="name" autocomplete="on" pattern="[A-Za-z]+" required>
+          </div>
+          <div>
+            <label for="company">Company</label>
+            <input type="text" id="company" autocomplete="on">
+          </div>
+          <div>
+            <label for="phone">Phone *required</label>
+            <input type="tel" id="phone" autocomplete="on" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+          </div>
+          <div>
+            <label for="city">City</label>
+            <input type="text" id="city" autocomplete="on">
+          </div>
+          <div>
+            <label for="email">Email *required</label>
+            <input type="email" id="email" autocomplete="on" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="example@email.com" required>
+          </div>
+          <div>
+            <label for="website">Website Url</label>
+            <input type="url" id="website" autocomplete="on" pattern="https?://.+" placeholder="https://exampleurl.com">
+          </div>
+          <div>
+            <label for="budget">Budget</label>
+            <input type="number" id="budget" step="1000" placeholder="$3,000 - $6,000" min="3000" max="6000">
+          </div>
+          <div>
+            <label for="project-description">Project Description</label>
+            <textarea id="project-description" placeholder="In 250 words or less."></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send">
+          </div>
+        </fieldset>
+      </form>
+    </section>
+	</main>
+	<footer>
+    <div>
+       <div>
+         <a href="index.html">
+           <img src="img/logo.png" alt="Odds ++ Logo">
+         </a> 
+       </div>
+       <div>
+         <h4>Company</h4>
+         <ul>
+           <li><a href="#">Our Story</a></li>
+           <li><a href="#">Our Team</a></li>
+           <li><a href="#">Clients</a></li>
+           <li><a href="#">Careers</a></li>
+         </ul>
+       </div>
+       <div>
+         <h4>Services</h4>
+         <ul>
+           <li><a href="#">Pricing</a></li>
+           <li><a href="#">Our Talents</a></li>
+           <li><a href="#">Tour</a></li>
+         </ul>
+       </div>
+       <div>
+         <h4>Get in Touch</h4>
+         <ul>
+           <li><a href="#">Contact Us</a></li>
+           <li><a href="#">Press & Media</a></li>
+           <li><a href="#">hello@upchanges.ca</a></li>
+         </ul>
+       </div>
+    </div>
+   <p>Copyright &#169; <br>Splash Media 2021</p>
+ </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
